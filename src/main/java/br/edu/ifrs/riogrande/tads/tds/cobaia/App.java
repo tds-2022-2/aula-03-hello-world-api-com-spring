@@ -29,7 +29,7 @@ class OlaController {
 	// https://subdominio.dominio.ext:8823/path/subpath/subsubpath/resource
 	// @RequestMapping(method = RequestMethod.GET)
 	@GetMapping(path = "/oi")
-	String oi(HttpRequest req) {
+	String oi() {
 		return "Oi mundo!";
 	}
 
